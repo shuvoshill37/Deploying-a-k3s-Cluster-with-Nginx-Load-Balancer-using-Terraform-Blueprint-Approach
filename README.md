@@ -14,15 +14,7 @@ Prerequisites
 
 Directory Structure
 
-  Deploying-a-k3s-Cluster-with-Nginx-Load-Balancer-using-Terraform-Blueprint-Approach/
-├── main.tf                   # Terraform configuration for provisioning EC2 instances
-├── variables.tf              # Terraform variables for instance configuration
-├── outputs.tf                # Outputs configuration for capturing instance details
-├── k3s_cluster.tf            # Configuration for k3s cluster setup (master and worker nodes)
-├── nginx-ingress.yaml        # Kubernetes Ingress resource configuration for NGINX
-└── README.md                 # Documentation for setup and deployment
-
- 
+![Screen Shot 2024-11-01 at 4 21 51 PM](https://github.com/user-attachments/assets/f0fa54e1-b972-4837-9628-3736a8d8e90c)
 
 
 Step-by-Step Guide
