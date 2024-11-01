@@ -14,13 +14,16 @@ Prerequisites
 
 Directory Structure
 
-  project-directory/
-  ├── main.tf                   # Terraform configuration for EC2 setup
-  ├── variables.tf              # Input variables for Terraform
-  ├── k3s_cluster.tf            # Kubernetes setup for k3s master and worker nodes
-  ├── nginx-ingress.yaml        # NGINX Ingress resource for load balancing
-  ├── README.md                 # Documentation
-  └── outputs.tf                # Output values
+  Deploying-a-k3s-Cluster-with-Nginx-Load-Balancer-using-Terraform-Blueprint-Approach/
+├── main.tf                   # Terraform configuration for provisioning EC2 instances
+├── variables.tf              # Terraform variables for instance configuration
+├── outputs.tf                # Outputs configuration for capturing instance details
+├── k3s_cluster.tf            # Configuration for k3s cluster setup (master and worker nodes)
+├── nginx-ingress.yaml        # Kubernetes Ingress resource configuration for NGINX
+└── README.md                 # Documentation for setup and deployment
+
+ 
+
 
 Step-by-Step Guide
 1. Configure Terraform Files
